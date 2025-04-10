@@ -1,0 +1,5 @@
+QTD Sales = 
+CALCULATE (
+    [Sum Subtotal],
+    DATESQTD('DimDate'[Date])
+    )

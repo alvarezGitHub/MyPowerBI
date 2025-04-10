@@ -1,0 +1,5 @@
+MTD Sales = 
+CALCULATE (
+    [Sum Subtotal],
+    DATESMTD('DimDate'[Date])
+    )
